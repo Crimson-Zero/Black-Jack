@@ -63,7 +63,7 @@ def get_score(card_hand,score):
                     Ace_score=(Cards[card_type][card][1])
                     score+=Ace_score
                     
-                if(score > 11):
+                if(score > 11 or score==11):
                     Ace_score=(Cards[card_type][card][0])
                     score+=Ace_score
     
